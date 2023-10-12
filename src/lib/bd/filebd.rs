@@ -1,7 +1,6 @@
 use super::*;
 
 use std::fs;
-use std::io;
 use std::io::{Read, Write, Seek, SeekFrom};
 
 pub struct FileBD {

@@ -1,4 +1,5 @@
 use eofs::*;
+use eofs::bd::*;
 
 use clap::{Parser, Subcommand};
 

@@ -9,7 +9,6 @@ pub const BLOCK_LEN: u32 = 512;
 pub type Block = [u8; BLOCK_LEN as usize];
 
 pub mod bd;
-pub use bd::*;
 
 pub mod header;
 pub use header::*;
